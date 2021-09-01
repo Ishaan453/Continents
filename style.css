@@ -1,0 +1,290 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+hr{
+  height: 5px;
+  background-color: black;
+}
+
+
+.header {
+  background-color: aqua;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 20px;
+}
+
+.navigationBar {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.pageLinks{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigationBar li {
+  background-color: indianred;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.thank{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.credit div a{
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: crimson;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.credit-1,
+.credit-2,
+.credit-3,
+.credit-4{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.CreHead{
+  text-align: center;
+  font-size: 25px;
+}
+
+
+
+@media only screen and (min-width:900px) {
+  .navigationBar li a {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+
+  .conImg {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .Content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2px;
+  }
+
+  .list {
+    width: 20%;
+    border: 5px solid limegreen;
+    height: max-content;
+    position: sticky;
+    top: 115px;
+    margin: 2px;
+    text-align: center;
+  }
+
+  .head{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+  }
+
+  .about {
+    width: 50%;
+    margin: 2px;
+  }
+
+  .conHead{
+      text-align: center;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin-top: 20px;
+      margin-bottom: 5px;
+  }
+
+  .conInfo{
+      text-align: left;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 20px;
+  }
+
+  .InterestingFact {
+    width: 25%;
+    margin: 2px;
+    max-height: 580px;
+    overflow: auto;
+    position: sticky;
+    top: 115px;
+    border: 5px solid limegreen;
+  }
+
+  .FACTS{
+    list-style-type: none;
+    padding-left: 0px;
+  }
+
+  .fact{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .FACTS li{
+    background-color: coral;
+    margin: 5px;
+    padding: 5px;
+    font-size: larger;
+    border-radius: 5px;
+  }
+
+
+  .credit{
+    background-color: burlywood;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+
+
+@media only screen and (max-width:900px) {
+  .navigationBar li a {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+
+  .conImg {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .Content {
+    margin: 2px;
+  }
+
+  .list {
+    width: 100%;
+    border: 5px solid limegreen;
+    height: max-content;
+    margin: 2px;
+    text-align: center;
+  }
+
+  .head{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  }
+
+  .about {
+    width: 100%;
+    margin: 2px;
+  }
+
+  .conHead{
+      text-align: center;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin-top: 20px;
+      margin-bottom: 5px;
+  }
+
+  .conInfo{
+      text-align: left;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 15px;
+  }
+
+  .InterestingFact {
+    width: 100%;
+    margin: 2px;
+    max-height: 580px;
+    overflow: auto;
+    border: 5px solid limegreen;
+  }
+
+  .FACTS{
+    list-style-type: none;
+    padding-left: 0px;
+  }
+
+  .fact{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .FACTS li{
+    background-color: coral;
+    margin: 5px;
+    padding: 5px;
+    font-size: larger;
+    border-radius: 5px;
+  }
+
+
+  .credit{
+    background-color: burlywood;
+  }
+
+  .credit-1{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .credit-2{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .credit-3{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .credit-4{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .credit-1,
+  .credit-2,
+  .credit-3,
+  .credit-4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .credit div a{
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: crimson;
+    text-decoration: underline;
+    width: 100px;
+    padding: 10px;
+  }
+}
