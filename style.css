@@ -127,7 +127,7 @@ hr{
   .InterestingFact {
     width: 25%;
     margin: 2px;
-    max-height: 580px;
+    max-height: 500px;
     overflow: auto;
     position: sticky;
     top: 115px;
