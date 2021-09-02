@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 * {
   box-sizing: border-box;
@@ -17,8 +17,8 @@ hr{
 .header {
   background-image: url(https://www.appliedimage.com/wp-content/uploads/2013/10/header-background.png);
   text-align: center;
-  font-family: 'Source Code Pro', monospace;
-  color: blanchedalmond;
+  font-family: 'Libre Baskerville', serif;
+  color: rgb(255, 255, 255);
   padding: 20px;
 }
 
